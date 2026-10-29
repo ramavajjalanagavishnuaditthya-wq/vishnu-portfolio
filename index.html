@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Naga Vishnu Aditthya Ramavajjala – Cybersecurity Analyst | Animation &amp; Visual Storytelling</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07080b;--pan:#0e1117;--ink:#f3ead8;--mute:#8d95a3;--am:#ffb454;--cy:#4df0d4;--ro:#ff5d8f;--ln:#1f2631;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(70px + env(safe-area-inset-top,0px));background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font:300 1.05rem/1.7 Outfit,"Helvetica Neue",Arial,sans-serif;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:60}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:55;opacity:.07;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+a{color:inherit}button{font:inherit;color:inherit;cursor:pointer}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:700;margin:0;line-height:1.05}
+.mono{font:400 .78rem/1.4 "JetBrains Mono",ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase}
+.film{position:fixed;left:0;top:0;bottom:0;width:16px;z-index:50;background:#000 repeating-linear-gradient(#000 0 10px,#2a2f3a 10px 18px);border-right:1px solid var(--ln)}
+.film i{position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(var(--cy),var(--am));transform-origin:top;transform:scaleY(0);opacity:.85}
+nav{position:fixed;top:env(safe-area-inset-top,0px);left:16px;right:0;z-index:45;display:flex;justify-content:space-between;align-items:center;padding:14px 4vw;background:linear-gradient(#07080bf0,#07080b00)}
+nav b{font:700 1.3rem Fraunces,serif;letter-spacing:.04em}
+nav .lk{display:flex;gap:22px}
+nav a{text-decoration:none;color:#c9cfd9;font-size:.85rem;transition:color .2s,text-shadow .2s}
+nav a:hover{color:var(--am);text-shadow:0 0 14px var(--am)}
+#sc{color:var(--cy)}
+@media(max-width:860px){nav .lk{display:none}}
+.cur,.cur2{position:fixed;left:0;top:0;pointer-events:none;z-index:70;display:none}
+@media(pointer:fine){.cur,.cur2{display:block}body{cursor:none}a,button,.tilt,label{cursor:none}}
+.cur{width:8px;height:8px;margin:-4px;background:var(--ro);border-radius:50%}
+.cur2{width:44px;height:44px;margin:-22px;border:1px solid var(--cy);transition:width .25s,height .25s,margin .25s,border-color .25s,background .25s}
+.cur2::before,.cur2::after{content:"";position:absolute;background:var(--cy);transition:background .25s}
+.cur2::before{left:50%;top:-6px;width:1px;height:10px}.cur2::after{top:50%;left:-6px;height:1px;width:10px}
+.cur2.h{width:70px;height:70px;margin:-35px;border-color:var(--am);background:#ffb45418}
+.hero{position:relative;min-height:100svh;overflow:hidden;display:flex;align-items:flex-end;padding:120px 4vw 70px calc(4vw + 16px)}
+.w{position:absolute;inset:0}
+.w1{background:radial-gradient(80% 70% at 20% 30%,#0a2a2a,#050a0c 70%)}
+.w1::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(#0000 0 3px,#4df0d412 3px 4px),linear-gradient(90deg,#4df0d40d 1px,#0000 1px) 0 0/60px 60px}
+.log{position:absolute;left:5%;top:0;width:min(520px,70%);color:#4df0d4aa;animation:up 40s linear infinite}
+.log p{margin:0 0 14px}.log b{color:var(--ro);font-weight:500}.log em{color:var(--am);font-style:normal}
+@keyframes up{to{transform:translateY(-50%)}}
+.w2{background:radial-gradient(70% 70% at 80% 30%,#4a2c12,#140d08 70%);clip-path:inset(0 0 0 var(--x,50%))}
+.w2 svg{position:absolute;right:4%;top:12%;width:min(700px,80%);opacity:.9}
+.sk path,.sk rect,.sk circle,.sk line{fill:none;stroke:var(--am);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:dr 3s ease forwards}
+@keyframes dr{to{stroke-dashoffset:0}}
+.dv{position:absolute;top:0;bottom:0;left:var(--x,50%);width:2px;background:linear-gradient(var(--cy),var(--am));box-shadow:0 0 20px var(--am);z-index:3}
+.dv::after{content:"◀ ▶";position:absolute;top:50%;left:-26px;width:54px;text-align:center;font-size:.7rem;background:#000;border:1px solid var(--am);border-radius:20px;padding:2px 0;transform:translateY(-50%)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,var(--bg) 4%,#07080bcc 30%,#0000 62%);z-index:2;pointer-events:none}
+.hi{position:relative;z-index:4;max-width:980px;pointer-events:none}
+.hi a{pointer-events:auto}
+h1{font-size:clamp(2.8rem,9vw,7.4rem);letter-spacing:-.02em;text-shadow:0 8px 40px #000}
+h1 span{display:block;font-weight:500;font-size:.56em;color:var(--am);overflow:hidden}
+h1 span i,h1 em{display:inline-block;font-style:normal;transform:translateY(110%);animation:rise .9s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:calc(var(--i)*40ms)}
+@keyframes rise{to{transform:none}}
+.role{margin:18px 0 8px}.role b{color:var(--cy);font-weight:400}.role u{color:var(--am);text-decoration:none}
+.ct{display:flex;flex-wrap:wrap;gap:8px 22px;color:#cfd5df;font-size:.95rem}
+.ct a{text-decoration:none;border-bottom:1px solid #ffffff33;transition:color .2s,border-color .2s}.ct a:hover{color:var(--am);border-color:var(--am)}
+.bt{display:flex;flex-wrap:wrap;gap:14px;margin-top:26px}
+.b{position:relative;display:inline-block;padding:13px 28px;border:1px solid var(--am);color:var(--am);text-decoration:none;font-weight:500;overflow:hidden;z-index:0;transition:color .3s,box-shadow .3s}
+.b::before{content:"";position:absolute;inset:0;background:var(--am);transform:translateY(101%);transition:transform .35s;z-index:-1}
+.b:hover{color:#0a0a0a;box-shadow:0 0 34px #ffb45466}.b:hover::before{transform:none}
+.b.c{border-color:var(--cy);color:var(--cy)}.b.c::before{background:var(--cy)}.b.c:hover{box-shadow:0 0 34px #4df0d466}
+.sec{max-width:1120px;margin:0 auto;padding:clamp(80px,12vw,150px) 5vw 0 calc(5vw + 16px)}
+.sh{display:flex;flex-direction:column;gap:10px;margin-bottom:38px;position:relative}
+.sh .mono{color:var(--cy)}
+.sh h2{font-size:clamp(2.4rem,6.4vw,5rem)}
+.sh::after{content:attr(data-n);position:absolute;right:0;top:-30px;font:700 clamp(5rem,16vw,12rem)/1 Fraunces,serif;color:#ffffff07;pointer-events:none}
+.rv{opacity:0;transform:translateY(46px) scale(.98);filter:blur(6px);transition:opacity .9s,transform .9s cubic-bezier(.2,.8,.2,1),filter .9s;transition-delay:calc(var(--d,0)*90ms)}
+.rv.in{opacity:1;transform:none;filter:none}
+.lead{font-size:clamp(1.15rem,2.2vw,1.55rem);line-height:1.65;max-width:62ch;color:#e6dcc6}
+.lead .hl{background:linear-gradient(var(--am),var(--am)) 0 100%/0 2px no-repeat;transition:background-size 1.4s .4s}
+.in .hl{background-size:100% 2px}
+.card{position:relative;background:var(--pan);border:1px solid var(--ln);padding:26px;overflow:hidden;transition:border-color .3s,box-shadow .4s,transform .3s}
+.card::before{content:"";position:absolute;inset:0;background:radial-gradient(360px circle at var(--mx,50%) var(--my,50%),#ffb4541f,transparent 60%);opacity:0;transition:opacity .3s;pointer-events:none}
+.card:hover{border-color:var(--am);box-shadow:0 20px 60px #000}.card:hover::before{opacity:1}
+.tilt{transform-style:preserve-3d;will-change:transform}
+.story{display:flex;gap:20px;overflow-x:auto;padding:14px 0 30px;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:var(--am) #0000}
+.pn{flex:0 0 min(440px,84vw);scroll-snap-align:start;padding:0}
+.pn .ar{height:230px;background:linear-gradient(135deg,#1b1410,#0b0c10);display:grid;place-items:center;border-bottom:1px solid var(--ln);position:relative}
+.pn svg{width:70%;height:86%;overflow:visible}
+.pn .n{position:absolute;top:10px;left:14px;color:var(--am)}
+.pn .t{padding:20px 24px 26px}
+.pn:hover .sk *{animation:dr 1.6s ease forwards}
+.pn svg *{fill:none;stroke:var(--am);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.pn:hover svg{filter:drop-shadow(0 0 10px var(--am))}
+.sub{margin:0 0 22px;color:var(--mute)}
+.tl{position:relative;padding-left:34px}
+.tl::before,.tl::after{content:"";position:absolute;left:7px;top:0;width:2px}
+.tl::before{bottom:0;background:var(--ln)}
+.tl::after{height:calc(var(--p,0)*100%);background:linear-gradient(var(--cy),var(--am));box-shadow:0 0 14px var(--cy)}
+.job{position:relative;margin-bottom:26px}
+.job::before{content:"";position:absolute;left:-34px;top:30px;width:16px;height:16px;border-radius:50%;background:var(--bg);border:2px solid var(--cy);transition:background .3s,box-shadow .3s}
+.job:hover::before{background:var(--cy);box-shadow:0 0 22px var(--cy)}
+.job .card{padding:0}
+.bar{display:flex;gap:7px;align-items:center;padding:10px 16px;border-bottom:1px solid var(--ln);background:#0a0d12}
+.bar i{width:10px;height:10px;border-radius:50%;background:#2c3340}.bar i:first-child{background:var(--ro)}.bar i:nth-child(2){background:var(--am)}.bar i:nth-child(3){background:var(--cy)}
+.bar span{margin-left:auto;color:var(--mute)}
+.job .bd{padding:22px 26px}
+.job h3{font-size:1.7rem}.job .o{color:var(--cy);margin:2px 0 14px}
+.job ul{list-style:none;margin:0;padding:0}.job li{position:relative;padding-left:22px;margin:10px 0;color:#cfd5df}
+.job li::before{content:">";position:absolute;left:0;color:var(--am);font-family:"JetBrains Mono",monospace}
+.cur-t{color:var(--ro)}
+.g{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:16px}
+.chip{padding:6px 14px;border:1px solid var(--ln);background:#0a0d12;font-size:.92rem;transition:transform .25s,border-color .25s,color .25s,box-shadow .25s}
+.chip:hover{transform:translateY(-5px) rotate(-2deg);border-color:var(--am);color:var(--am);box-shadow:0 10px 24px #ffb45426}
+.cy .chip:hover{border-color:var(--cy);color:var(--cy);box-shadow:0 10px 24px #4df0d426}
+.apps{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-top:18px}
+.app{text-align:center;padding:22px 10px;border:1px solid var(--ln);background:#0a0d12;transition:transform .3s,border-color .3s}
+.app:hover{transform:translateY(-8px) rotate(-2deg);border-color:var(--am)}
+.app svg{width:46px;height:46px;fill:none;stroke:var(--am);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transition:transform .6s}
+.app:hover svg{transform:rotate(360deg) scale(1.1)}
+.app b{display:block;margin-top:8px;font-weight:500}
+.fc{perspective:1100px;height:290px;cursor:pointer}
+.fi{position:relative;height:100%;transition:transform .8s cubic-bezier(.2,.8,.2,1);transform-style:preserve-3d}
+.fc:hover .fi,.fc.f .fi{transform:rotateY(180deg)}
+.ff,.fb{position:absolute;inset:0;backface-visibility:hidden;padding:26px;border:1px solid var(--ln);background:var(--pan);display:flex;flex-direction:column;justify-content:space-between}
+.fb{transform:rotateY(180deg);background:linear-gradient(160deg,#0f2623,#0b0e13);border-color:var(--cy);justify-content:flex-start;gap:12px;overflow:auto}
+.ff svg{width:70px;height:70px;fill:none;stroke:var(--cy);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.ff h3{font-size:1.5rem}.fb p{margin:0;font-size:.98rem;color:#cfe;line-height:1.6}
+.ring{display:flex;align-items:center;gap:26px;flex-wrap:wrap}
+.ring svg{width:150px;height:150px;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:9;stroke-linecap:round}
+.ring .bg{stroke:var(--ln)}.ring .fg{stroke:url(#gr);stroke-dasharray:327;stroke-dashoffset:327;transition:stroke-dashoffset 2s .3s cubic-bezier(.2,.8,.2,1)}
+.in .ring .fg,.ring.in .fg{stroke-dashoffset:61.5}
+.rn{position:relative;width:150px;height:150px;flex:none}.rn svg{position:absolute;inset:0}
+.rn b{position:absolute;inset:0;display:grid;place-items:center;font:700 2.1rem Fraunces,serif}
+.tk{position:relative;padding:22px 24px 22px 30px;border:1px solid var(--ln);background:var(--pan);overflow:hidden;transition:transform .3s,border-color .3s}
+.tk::before{content:"";position:absolute;left:-9px;top:50%;width:18px;height:18px;border-radius:50%;background:var(--bg);border:1px solid var(--ln)}
+.tk::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,#0000,#ffffff1c,#0000);transform:skewX(-20deg);transition:left .8s}
+.tk:hover{transform:translateY(-6px) rotate(-1deg);border-color:var(--am)}.tk:hover::after{left:130%}
+.tk .mono{color:var(--am)}.tk h3{font-size:1.25rem;margin-top:6px}.tk p{margin:4px 0 0;color:var(--mute);font-size:.92rem}
+.md{width:70px;height:70px;border-radius:50%;background:radial-gradient(circle at 30% 30%,#ffe9b0,var(--am) 55%,#7a4b10);display:grid;place-items:center;font:700 1.6rem Fraunces,serif;color:#2a1704;box-shadow:0 0 40px #ffb45455;margin-bottom:14px;transition:transform .8s}
+.card:hover .md{transform:rotateY(360deg)}
+.fin{text-align:center;padding:50px 26px;background:radial-gradient(circle at 50% 0,#2a1d10,var(--pan) 70%)}
+.cd{font:700 clamp(4rem,12vw,8rem)/1 Fraunces,serif;color:#ffffff10;letter-spacing:.05em}
+.fin h3{font-size:2rem;margin:-30px 0 8px}.fin p{color:var(--mute);margin:0 0 24px}
+.vt{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+.vt button{background:none;border:1px solid var(--ln);padding:6px 14px;transition:all .25s}
+.vt button.on,.vt button:hover{border-color:var(--cy);color:var(--cy);background:#4df0d412}
+.dz{border:1.5px dashed #4df0d466;padding:26px;text-align:center;margin-bottom:18px;transition:background .3s,border-color .3s;background:#4df0d406;display:none}
+.dz.on{display:block}.dz.over{background:#4df0d41c;border-color:var(--cy)}
+.dz label{display:inline-block;margin-top:8px;padding:9px 22px;border:1px solid var(--cy);color:var(--cy)}
+.dz label:hover{background:var(--cy);color:#000}
+.dz input{display:none}.st{color:var(--am);margin-top:10px;min-height:1.4em}
+.vg{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+.vi{position:relative;border:1px solid var(--ln);background:var(--pan);overflow:hidden;transition:transform .3s,border-color .3s}
+.vi:hover{transform:translateY(-6px) scale(1.02);border-color:var(--am)}
+.vi video,.vi img{display:block;width:100%;height:160px;object-fit:cover;background:#000}
+.vi .dc{height:160px;display:grid;place-items:center;font:700 2.4rem Fraunces,serif;color:var(--am);background:linear-gradient(135deg,#1b1410,#0b0c10)}
+.vi div.m{padding:10px 14px;font-size:.88rem;word-break:break-all}
+.vi .x{position:absolute;top:8px;right:8px;background:#000c;border:1px solid var(--ro);color:var(--ro);width:28px;height:28px;border-radius:50%;line-height:1;display:none}
+.ed .vi .x{display:block}
+.em{color:var(--mute);padding:26px;border:1px dashed var(--ln);text-align:center}
+.cr{text-align:center;padding-bottom:160px}
+.cr h2{font-size:clamp(3rem,10vw,7.5rem);margin-bottom:20px}
+.cr p{margin:6px 0;color:var(--mute)}
+.cr .big{font:500 clamp(1.1rem,3vw,1.7rem) Fraunces,serif;color:var(--ink)}
+.cr .big a{text-decoration:none;border-bottom:1px solid var(--am);transition:color .2s}.cr .big a:hover{color:var(--am)}
+#fl{position:fixed;inset:0;background:#fff;opacity:0;pointer-events:none;z-index:65}
+.ap{position:fixed;width:20px;height:20px;margin:-10px;border-radius:50%;border:2px solid var(--am);pointer-events:none;z-index:66;animation:ap .7s ease-out forwards}
+.ap::after{content:"";position:absolute;inset:-8px;border-radius:50%;border:1px dashed var(--cy)}
+@keyframes ap{to{transform:scale(7) rotate(90deg);opacity:0}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01s!important;transition:none!important}html{scroll-behavior:auto}.rv{opacity:1;transform:none;filter:none}.sk *{stroke-dashoffset:0}}
+
+.creative-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.creative-item{padding:16px}
+.creative-video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#000;border:1px solid var(--ln)}
+</style>
+</head>
+<body>
+<div class="film"><i id="fp"></i></div><div class="cur" id="c1"></div><div class="cur2" id="c2"></div><div id="fl"></div>
+<nav><b>N·V·A</b><div class="lk"><a href="#s2">Logline</a><a href="#s3">Short films</a><a href="#s4">Experience</a><a href="#s5">Toolkit</a><a href="#s6">Case files</a><a href="#s7">Education</a><a href="#s8">Certifications</a><a href="#s10">Resume</a><a href="#s11">Creative Works</a><a href="#s12">Contact</a></div><span class="mono" id="sc">Scene 01 / 12</span></nav>
+
+<header class="hero" id="s1" data-sc="1">
+<div class="w w1"><div class="log mono" id="log"></div></div>
+<div class="w w2"><svg class="sk" viewBox="0 0 700 440"><rect x="20" y="20" width="300" height="170" pathLength="1"/><rect x="340" y="20" width="340" height="170" pathLength="1" style="animation-delay:.4s"/><rect x="20" y="210" width="200" height="210" pathLength="1" style="animation-delay:.8s"/><path pathLength="1" style="animation-delay:1s" d="M50 150 Q110 60 170 120 T290 90"/><path pathLength="1" style="animation-delay:1.3s" d="M360 160 L420 60 L500 140 L560 50 L660 150"/><circle cx="120" cy="320" r="48" pathLength="1" style="animation-delay:1.5s"/><path pathLength="1" style="animation-delay:1.8s" d="M250 230 L440 230 L440 400 L250 400Z M250 230 L300 190 L490 190 L440 230 M440 400 L490 360 L490 190"/><line x1="560" y1="250" x2="660" y2="250" pathLength="1" style="animation-delay:2.2s"/><circle cx="610" cy="330" r="38" pathLength="1" style="animation-delay:2.4s"/><path pathLength="1" style="animation-delay:2.6s" d="M590 330 L630 330 M610 310 L610 350"/></svg></div>
+<div class="dv" id="dv"></div>
+<div class="hi">
+<p class="mono" style="color:var(--cy)">A security analyst · A visual storyteller</p>
+<h1 id="nm"></h1>
+<p class="role mono"><b>Cybersecurity Analyst</b> &nbsp;|&nbsp; <u>Animation &amp; Visual Storytelling</u></p>
+<div class="ct"><a href="tel:+918297693923">8297693923</a><a href="mailto:ramavajjalanagavishnuaditthya@gmail.com">ramavajjalanagavishnuaditthya@gmail.com</a><a href="https://linkedin.com/in/vishnu1716/" target="_blank" rel="noopener">linkedin.com/in/vishnu1716/</a></div>
+<div class="bt"><a class="b" href="#s10">Open resume</a><a class="b c" href="#s11">Enter the vault</a></div>
+</div>
+</header>
+
+<main>
+<section class="sec" id="s2" data-sc="2"><div class="sh rv" data-n="02"><span class="mono">Scene 02 · Logline</span><h2>Professional summary</h2></div>
+<p class="lead rv">Cybersecurity analyst with hands-on experience in <span class="hl">SOC operations, SIEM/EDR investigations and incident response</span>, alongside a long-standing personal passion for animation, visual design and cinematic storytelling. Outside my security career, I develop original short-film concepts and visual sequences, using Procreate for storyboarding and frame-based visual development, and exploring 3D workflows with Autodesk Maya and Houdini. I enjoy turning abstract ideas into clear visual narratives—building atmosphere, characters, composition and scene flow with the same curiosity and discipline I bring to technical problem-solving. Now looking to contribute this creative drive to <span class="hl">animation and motion-graphics work</span> while continuing to grow my production skills.</p></section>
+
+<section class="sec" id="s3" data-sc="3"><div class="sh rv" data-n="03"><span class="mono">Scene 03 · Creative projects &amp; independent practice</span><h2>Independent Short-Film Development &amp; Visual Storytelling</h2></div>
+<p class="sub rv mono">Personal Projects · swipe the storyboard →</p>
+<div class="story rv" id="story"></div></section>
+
+<section class="sec" id="s4" data-sc="4"><div class="sh rv" data-n="04"><span class="mono">Scene 04 · Professional experience</span><h2>The security reel</h2></div>
+<div class="tl" id="tl"></div></section>
+
+<section class="sec" id="s5" data-sc="5"><div class="sh rv" data-n="05"><span class="mono">Scene 05 · Creative &amp; technical skills</span><h2>The toolkit</h2></div>
+<div class="g">
+<div class="card tilt rv"><h3>Creative practice</h3><div class="chips" id="k1"></div></div>
+<div class="card tilt rv" style="--d:1"><h3>Creative software</h3><div class="apps">
+<div class="app"><svg viewBox="0 0 48 48"><path d="M8 40c6-2 8-8 12-14l14-16 4 4-16 14c-6 4-10 6-14 12z"/><path d="M30 12l6 6"/></svg><b>Procreate</b></div>
+<div class="app"><svg viewBox="0 0 48 48"><path d="M24 6l16 9v18l-16 9-16-9V15z"/><path d="M8 15l16 9 16-9M24 24v18"/></svg><b>Autodesk Maya</b></div>
+<div class="app"><svg viewBox="0 0 48 48"><circle cx="10" cy="12" r="4"/><circle cx="38" cy="12" r="4"/><circle cx="24" cy="38" r="4"/><circle cx="24" cy="22" r="4"/><path d="M13 14l8 6M35 14l-8 6M24 26v8"/></svg><b>Houdini</b></div></div></div>
+<div class="card tilt rv cy" style="--d:2;grid-column:1/-1"><h3>Cybersecurity</h3><div class="chips" id="k2"></div></div>
+</div></section>
+
+<section class="sec" id="s6" data-sc="6"><div class="sh rv" data-n="06"><span class="mono">Scene 06 · Selected cybersecurity projects</span><h2>Case files</h2></div>
+<p class="sub rv mono">Hover or tap a file to open it</p><div class="g" id="cases"></div></section>
+
+<section class="sec" id="s7" data-sc="7"><div class="sh rv" data-n="07"><span class="mono">Scene 07 · Education</span><h2>Where it started</h2></div>
+<div class="card rv"><div class="ring"><div class="rn"><svg viewBox="0 0 120 120"><defs><linearGradient id="gr"><stop offset="0" stop-color="#4df0d4"/><stop offset="1" stop-color="#ffb454"/></linearGradient></defs><circle class="bg" cx="60" cy="60" r="52"/><circle class="fg" cx="60" cy="60" r="52"/></svg><b>8.12</b></div>
+<div style="flex:1;min-width:240px"><h3>Bachelor of Technology (B.Tech), Computer Science and Engineering – Cyber Security</h3><p class="mono" style="color:var(--cy);margin:10px 0">Jain University · 2020–2024 · CGPA: 8.12/10</p><p style="margin:0;color:var(--mute)">Relevant coursework</p><div class="chips" id="k3"></div></div></div></div></section>
+
+<section class="sec" id="s8" data-sc="8"><div class="sh rv" data-n="08"><span class="mono">Scene 08 · Certifications &amp; training</span><h2>Certifications</h2></div><div class="g" id="certs"></div></section>
+
+<section class="sec" id="s9" data-sc="9"><div class="sh rv" data-n="09"><span class="mono">Scene 09 · Achievements</span><h2>Awards &amp; moments</h2></div>
+<div class="g"><div class="card tilt rv"><div class="md">3rd</div><p style="margin:0;font-size:1.1rem">Secured 3rd place for final-year B.Tech project on an intrusion detection and prevention system using Snort and PowerShell-based alert automation (May 2024).</p></div>
+<div class="card tilt rv" style="--d:1"><div class="md" style="font-size:1.1rem">48h</div><p style="margin:0;font-size:1.1rem">Participated in a 48-hour Futurense Technologies Techathon focused on AI-integrated spear-phishing simulation and cybersecurity concepts (Nov 2023).</p></div></div></section>
+
+<section class="sec" id="s10" data-sc="10"><div class="sh rv" data-n="10"><span class="mono">Scene 10 · Final cut</span><h2>The resume</h2></div>
+<div class="card fin rv"><div class="cd">3 · 2 · 1</div><h3>Naga Vishnu Aditthya Ramavajjala</h3><p>Cybersecurity Analyst | Animation &amp; Visual Storytelling</p><a class="b" id="rs" href="/_blob/RESUME_ID" target="_blank" rel="noopener">Open / download resume (PDF)</a></div></section>
+
+<section class="sec" id="s11" data-sc="11"><div class="sh rv" data-n="11"><span class="mono">Scene 11 · Creative Works</span><h2>Creative Works</h2></div>
+<p class="sub rv mono">Selected video work · play to explore</p>
+<div class="g creative-grid">
+  <article class="card rv creative-item"><video class="creative-video" controls preload="none" playsinline><source src="assets/creative-works/creative-01.mp4" type="video/mp4">Your browser does not support this video.</video><div style="padding-top:16px"><span class="mono" style="color:var(--cy)">Creative work 01</span><h3 style="margin-top:8px">Visual Storytelling — 01</h3><p style="color:var(--mute);margin-bottom:0">Video work</p></div></article>
+  <article class="card rv creative-item" style="--d:1"><video class="creative-video" controls preload="none" playsinline><source src="assets/creative-works/creative-02.mp4" type="video/mp4">Your browser does not support this video.</video><div style="padding-top:16px"><span class="mono" style="color:var(--cy)">Creative work 02</span><h3 style="margin-top:8px">Visual Storytelling — 02</h3><p style="color:var(--mute);margin-bottom:0">Video work</p></div></article>
+</div></section>
+
+<section class="sec cr" id="s12" data-sc="12"><div class="sh rv" data-n="12" style="align-items:center"><span class="mono">Scene 12 · End credits</span></div>
+<h2 class="rv">Let’s make something.</h2>
+<p class="rv mono">Cybersecurity Analyst | Animation &amp; Visual Storytelling</p>
+<p class="big rv"><a href="tel:+918297693923">8297693923</a></p>
+<p class="big rv"><a href="mailto:ramavajjalanagavishnuaditthya@gmail.com">ramavajjalanagavishnuaditthya@gmail.com</a></p>
+<p class="big rv"><a href="https://linkedin.com/in/vishnu1716/" target="_blank" rel="noopener">linkedin.com/in/vishnu1716/</a></p></section>
+</main>
+
+<script>
+(()=>{
+const $=s=>document.querySelector(s),E=s=>document.createElement(s),rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+// name reveal
+$('#nm').innerHTML='<em style="--i:0">Naga</em> <em style="--i:2">Vishnu</em><span>'+[...'Aditthya Ramavajjala'].map((c,i)=>c==' '?' ':`<i style="--i:${i+4}">${c}</i>`).join('')+'</span>';
+// hero split + log
+const hero=$('#s1');function sx(x){hero.style.setProperty('--x',x+'px')}sx(innerWidth*.5);
+hero.addEventListener('pointermove',e=>sx(e.clientX));
+const L=['<b>[ALERT]</b> suspicious PowerShell execution on host-17','triage → correlating EDR + auth + network logs','<em>MITRE ATT&amp;CK</em> mapped: T1059.001','IOC validated · hash flagged malicious','phishing / ClickFix chain suspected','possible lateral movement → containment coordinated','root-cause notes written · remediation tracked','<b>[ALERT]</b> authentication anomaly · impossible travel','Chronicle SIEM/SOAR · case opened','Snort IDS/IPS · false positive tuned','Defender for Endpoint · process tree reviewed','detection use-case drafted'];
+$('#log').innerHTML=[...L,...L].map(l=>`<p>${l}</p>`).join('');
+// content
+const cre=[['Scene planning','Develop original short-film concepts, shaping story ideas into cinematic sequences through scene planning, visual references, storyboards and shot-by-shot thinking.','<rect x="10" y="20" width="90" height="60"/><rect x="120" y="20" width="90" height="60"/><rect x="230" y="20" width="90" height="60"/><path d="M100 50h20M210 50h20M30 110h260M30 130h180"/>'],
+['Procreate frames','Use Procreate to create and refine visual frames, storyboard ideas and stylised scenes for short-film projects, focusing on mood, composition, lighting cues and emotional storytelling.','<path d="M20 120C60 20 100 140 150 60S250 20 300 90"/><circle cx="60" cy="40" r="12"/><circle cx="100" cy="34" r="12"/><circle cx="140" cy="40" r="12"/><path d="M200 130l80-90"/>'],
+['Maya &amp; Houdini','Explore animation and 3D creation workflows using Autodesk Maya and Houdini, building familiarity with digital scene creation and visual experimentation.','<path d="M110 30l70 38v70l-70 38-70-38V68zM40 68l70 38 70-38M110 106v70"/><circle cx="250" cy="50" r="10"/><circle cx="290" cy="130" r="10"/><circle cx="230" cy="150" r="10"/><path d="M256 58l28 64M240 148l-6 0M244 58l-10 80"/>'],
+['Cinematic direction','Create concepts with a cinematic, painterly visual direction, considering camera angles, framing, transitions and the relationship between imagery and narrative.','<rect x="20" y="20" width="280" height="150"/><path d="M113 20v150M207 20v150M20 70h280M20 120h280M60 160c40-60 80-30 120-80s80-10 120 40"/><circle cx="230" cy="55" r="14"/>']];
+$('#story').innerHTML=cre.map((c,i)=>`<article class="card pn tilt"><div class="ar"><span class="n mono">Frame 0${i+1}</span><svg viewBox="0 0 320 190" class="sk">${c[2].replace(/<(path|rect|circle)/g,'<$1 pathLength="1"')}</svg></div><div class="t"><h3 style="font-size:1.5rem;margin-bottom:10px">${c[0]}</h3><p style="margin:0">${c[1]}</p></div></article>`).join('');
+const exp=[['Cybersecurity Analyst','Alcon Cybersecurity Consultancy, India','Apr 2026 – Present',['Triage SOC alerts and investigate security events using SIEM/EDR telemetry, including authentication anomalies, suspicious PowerShell activity, malware indicators and network-based threat events.','Map observed activity to MITRE ATT&amp;CK, validate IOCs, document findings and remediation actions, and support threat-intelligence and detection-use-case development.','Prepare technical documentation, presentations and pre-sales content covering SOC operations, SIEM, EDR and threat-detection solutions.']],
+['Cybersecurity Analyst (Apprenticeship)','Endava, India','Oct 2025 – Apr 2026',['Monitored enterprise security telemetry using Google Chronicle SIEM/SOAR and investigated alerts involving phishing, credential theft, account misuse, suspicious PowerShell execution and possible lateral movement.','Used Microsoft Defender for Endpoint to review process activity and IOCs, support threat hunting and malware triage, and correlate endpoint, authentication and network logs.','Supported incident response through investigation notes, root-cause analysis, containment coordination and remediation tracking.']],
+['IT Hardware Engineer','RAC IT Solutions, India','Apr 2025 – Jun 2025',['Diagnosed client-device issues, performed OS imaging and software provisioning, and troubleshot laptops, desktops, upgrades and peripherals; contributed to faster support-ticket resolution.']],
+['Incident Response Intern','Futurense Technologies, India','Jan 2024 – May 2024',['Used Snort IDS/IPS to review network alerts, wrote PowerShell automation for threat-alert handling, and tested a website in a controlled environment using DoS simulation tools.']]];
+$('#tl').innerHTML=exp.map((j,i)=>`<div class="job rv"><div class="card tilt"><div class="bar"><i></i><i></i><i></i><span class="mono${i?'':' cur-t'}">${i?'closed':'● live'}</span></div><div class="bd"><h3>${j[0]}</h3><p class="o mono">${j[1]} · ${j[2]}</p><ul>${j[3].map(b=>`<li>${b}</li>`).join('')}</ul></div></div></div>`).join('');
+const chips=(id,a)=>$(id).innerHTML=a.map(x=>`<span class="chip">${x}</span>`).join('');
+chips('#k1',['Visual storytelling','Short-film concept development','Storyboarding','Composition','Shot planning','Cinematic framing','Visual research','Iterative design']);
+chips('#k2',['Google Chronicle SIEM/SOAR','Microsoft Defender for Endpoint','Snort IDS/IPS','MITRE ATT&amp;CK','Wireshark','Burp Suite','Metasploit','Autopsy','Cellebrite','Python','PowerShell','Linux']);
+chips('#k3',['Network Security','Cryptography','SOC','Malware Analysis','Digital Forensics','Machine Learning','Operating Systems']);
+const cs=[['Malware Classification with Machine Learning','Compared K-Nearest Neighbors (KNN) and Convolutional Neural Network (CNN) approaches for malware-family classification; reviewed model performance, accuracy and limitations across samples.','<circle cx="35" cy="36" r="14"/><path d="M35 22v-8M22 28l-8-6M48 28l8-6M20 38h-8M50 38h8M25 48l-7 8M45 48l7 8"/>'],
+['Network Intrusion Detection','Analysed traffic using Snort and Wireshark, studying intrusion patterns, alert behaviour and false positives in simulated scenarios.','<circle cx="35" cy="35" r="7"/><circle cx="10" cy="12" r="4"/><circle cx="60" cy="12" r="4"/><circle cx="10" cy="58" r="4"/><circle cx="60" cy="58" r="4"/><path d="M14 15l15 15M56 15L41 30M14 55l15-15M56 55L41 40"/>'],
+['Digital Forensics Investigation','Examined disk images and mobile-device artefacts using Autopsy and Cellebrite; reviewed file-system artefacts, timelines and deleted-data recovery in structured case studies.','<circle cx="30" cy="30" r="17"/><path d="M43 43l17 17M22 30h16M30 22v16"/>'],
+['Web Application Security Assessment','Used Burp Suite and manual testing to assess common web-application risks, including SQL injection, cross-site scripting (XSS) and authentication weaknesses.','<path d="M35 6l24 9v17c0 16-10 26-24 32C21 58 11 48 11 32V15z"/><path d="M25 35l8 8 14-16"/>']];
+$('#cases').innerHTML=cs.map((c,i)=>`<div class="fc rv" style="--d:${i}"><div class="fi"><div class="ff"><span class="mono" style="color:var(--cy)">Case file 0${i+1}</span><svg viewBox="0 0 70 70">${c[2]}</svg><h3>${c[0]}</h3></div><div class="fb"><span class="mono" style="color:var(--cy)">Findings</span><p>${c[1]}</p></div></div></div>`).join('');
+document.querySelectorAll('.fc').forEach(f=>f.addEventListener('click',()=>f.classList.toggle('f')));
+const ce=[['CTI 101 – Cyber Threat Intelligence','arc X (Jan 2026)'],['Certified Ethical Hacker (CEH)','EC-Council (Mar 2023)'],['Security Blue Team Level 1','Certification / training'],['Hands-on Password Attacks and Security','EC-Council CodeRed'],['Deep-Dive into the World of Malware','EC-Council CodeRed'],['Introduction to Dark Web, Anonymity and Cryptocurrency','EC-Council CodeRed']];
+$('#certs').innerHTML=ce.map((c,i)=>`<div class="tk rv" style="--d:${i%3}"><span class="mono">Pass 0${i+1}</span><h3>${c[0]}</h3><p>${c[1]}</p></div>`).join('');
+// reveals, progress, scene counter, timeline
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14});
+document.querySelectorAll('.rv,.ring').forEach(e=>io.observe(e));
+const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)$('#sc').textContent='Scene '+String(e.target.dataset.sc).padStart(2,'0')+' / 12'}),{rootMargin:'-45% 0px -50% 0px'});
+document.querySelectorAll('[data-sc]').forEach(e=>so.observe(e));
+const fp=$('#fp'),tl=$('#tl');
+function sc(){const m=document.documentElement.scrollHeight-innerHeight;fp.style.transform=`scaleY(${m>0?scrollY/m:0})`;const r=tl.getBoundingClientRect();tl.style.setProperty('--p',Math.max(0,Math.min(1,(innerHeight*.6-r.top)/r.height)).toFixed(3))}
+addEventListener('scroll',sc,{passive:true});sc();
+// cursor, tilt, spotlight, click
+const c1=$('#c1'),c2=$('#c2');let tx=0,ty=0,cx=0,cy=0;
+addEventListener('pointermove',e=>{tx=e.clientX;ty=e.clientY;c1.style.transform=`translate(${tx}px,${ty}px)`;c2.classList.toggle('h',!!e.target.closest('a,button,label,.fc,.tilt,.chip'))});
+(function f(){cx+=(tx-cx)*.18;cy+=(ty-cy)*.18;c2.style.transform=`translate(${cx}px,${cy}px)`;requestAnimationFrame(f)})();
+document.querySelectorAll('.card,.tk,.vi').forEach(el=>el.addEventListener('pointermove',e=>{const b=el.getBoundingClientRect();el.style.setProperty('--mx',e.clientX-b.left+'px');el.style.setProperty('--my',e.clientY-b.top+'px')}));
+if(!rm)document.querySelectorAll('.tilt').forEach(el=>{el.addEventListener('pointermove',e=>{const b=el.getBoundingClientRect(),x=(e.clientX-b.left)/b.width-.5,y=(e.clientY-b.top)/b.height-.5;el.style.transform=`perspective(900px) rotateY(${x*7}deg) rotateX(${-y*7}deg) translateY(-4px)`});el.addEventListener('pointerleave',()=>el.style.transform='')});
+addEventListener('click',e=>{if(rm)return;const a=E('i');a.className='ap';a.style.left=e.clientX+'px';a.style.top=e.clientY+'px';document.body.appendChild(a);setTimeout(()=>a.remove(),700);const fl=$('#fl');fl.animate([{opacity:.22},{opacity:0}],{duration:260})});
+
+// Creative Works videos are rendered directly in the Scene 11 section.
+})();
+</script>
+</body>
+</html>
